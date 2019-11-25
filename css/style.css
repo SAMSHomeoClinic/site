@@ -126,14 +126,44 @@ color: #2c7873;
 
   .case-image {
 
-    width: 100%;
+    width: 90%;
 
   }
 
-  .navbar-light .navbar-brand, .nav-link , .footer_head {
+
+  .navbar-light .navbar-brand {
+
+    font-size: 6rem;
+  }
+
+  .nav-link , .footer_head,.about_heading,h1 {
+
+    text-align: center;
 
   font-size: 5rem;
 
   }
+
+  h3, .information {
+
+    font-size: 2.5rem;
+    
+  }
+
+  #case-details {
+
+    padding: 7% 7%;
+  }
+
+.case-heading {
+font-family: 'Calistoga', cursive;
+  font-size: 5rem;
+}
+
+.case-text {
+
+  font-size: 2.5rem;
+  font-family: 'Nunito', sans-serif;
+}
 
 }
