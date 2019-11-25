@@ -121,3 +121,19 @@ font-family: 'Ubuntu', sans-serif;
 color: #2c7873;
 
 }
+
+@media (max-width: 1000px) {
+
+  .case-image {
+
+    width: 100%;
+
+  }
+
+  .navbar-light .navbar-brand, .nav-link , .footer_head {
+
+  font-size: 5rem;
+
+  }
+
+}
