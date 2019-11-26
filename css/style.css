@@ -100,11 +100,11 @@ h3 {
     width: 90%;
   }
 
-  .navbar-light .navbar-brand {
-    font-size: 8rem;
+  .navbar-light .navbar-brand, .about_heading {
+    font-size: 6.5rem;
   }
 
-  .nav-link, .footer_head, .about_heading, h1 {
+  .nav-link, .footer_head, h1 {
     text-align: center;
     font-size: 5rem;
   }
