@@ -1,13 +1,10 @@
 #content {
-
-background-color: #36b5b0;
-padding: 7% 15%;
-text-align: center;
-
+  background-color: #36b5b0;
+  padding: 7% 15%;
+  text-align: center;
 }
 
 h1 {
-
   font-family: 'Calistoga', cursive;
   font-size: 4rem;
   color: #2c7873;
@@ -15,95 +12,73 @@ h1 {
 }
 
 h3 {
-
-font-family: 'Ubuntu', sans-serif;
-color: #e3f6f5;
-
+  font-family: 'Ubuntu', sans-serif;
+  color: #e3f6f5;
 }
 
 /*Navigation bar*/
 .navbar {
-
   padding: 2% 15%;
   background-color: #e3f2fd;
   font-family: 'Nunito', sans-serif;
-
 }
 
 .navbar-light .navbar-brand {
-
-font-family: 'Calistoga', cursive;
-font-size: 2.5rem;
-color : #36b5b0;
+  font-family: 'Calistoga', cursive;
+  font-size: 2.5rem;
+  color: #36b5b0;
 }
 
 .nav-link {
-
-font-size: 1.2rem;
-
+  font-size: 1.2rem;
 }
 
 /* About us Section */
-
 #about-us {
-
-background-color: #e3f2fd;
-text-align: center;
-padding: 7% 15%;
-
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 7% 15%;
 }
 
 .picture_me {
-
-width: 100%;
-padding: 5%;
-
+  width: 100%;
+  padding: 5%;
 }
 
 .about_heading {
-
-font-family: 'Calistoga', cursive;
-padding-top: 15%;
-line-height: 1.5;
-font-size: 2rem;
-color: #2c7873;
+  font-family: 'Calistoga', cursive;
+  padding-top: 15%;
+  line-height: 1.5;
+  font-size: 2rem;
+  color: #2c7873;
 }
-.information {
 
+.information {
   font-family: 'Nunito', sans-serif;
   line-height: 1.5;
   font-size: 1.5rem;
   padding: 0 5%;
   color: #9dab86;
-
 }
 
 /*case details section*/
-
 #case-details {
-
-text-align: center;
-padding: 7% 15%;
-background-color: #36b5b0;
-color: #e3f6f5;
-
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #36b5b0;
+  color: #e3f6f5;
 }
 
 .case-image {
-
   width: 50%;
   padding: 5%;
 }
 
-
 /*footer section*/
-
 #footer {
-
-text-align: center;
-background-color: #e3f2fd;
-padding: 7% 15%;
-
+  text-align: center;
+  background-color: #e3f2fd;
+  padding: 7% 15%;
 }
 
 .footer_head {
@@ -112,58 +87,44 @@ padding: 7% 15%;
   line-height: 1.5;
   font-size: 2rem;
   color: #2c7873;
-
 }
 
 .footer_end {
-padding-top: 5%;
-font-family: 'Ubuntu', sans-serif;
-color: #2c7873;
-
+  padding-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #2c7873;
 }
 
 @media (max-width: 1000px) {
-
   .case-image {
-
     width: 90%;
-
   }
-
 
   .navbar-light .navbar-brand {
-
-    font-size: 6rem;
+    font-size: 8rem;
   }
 
-  .nav-link , .footer_head,.about_heading,h1 {
-
+  .nav-link, .footer_head, .about_heading, h1 {
     text-align: center;
-
-  font-size: 5rem;
-
+    font-size: 5rem;
   }
 
-  h3, .information {
-
-    font-size: 2.5rem;
-    
+  h3, .information, .case-text {
+    font-size: 3.5rem;
   }
 
   #case-details {
-
     padding: 7% 7%;
   }
 
-.case-heading {
-font-family: 'Calistoga', cursive;
-  font-size: 5rem;
-}
+  .case-heading {
+    font-family: 'Calistoga', cursive;
+    font-size: 5rem;
+  }
 
-.case-text {
+.navbar-toggler {
 
-  font-size: 2.5rem;
-  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
 }
 
 }
